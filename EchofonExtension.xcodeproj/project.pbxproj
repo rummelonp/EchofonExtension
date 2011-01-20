@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8436E0C612E84D1C00C6AC21 /* NSObject+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436E0C512E84D1C00C6AC21 /* NSObject+Swizzle.m */; };
 		8436E0E212E84DC400C6AC21 /* EchofonExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436E0E112E84DC400C6AC21 /* EchofonExtension.m */; };
+		8436E0F512E84E8400C6AC21 /* NSObject+EchofonExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8436E0F412E84E8400C6AC21 /* NSObject+EchofonExtension.m */; };
 		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
 		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
@@ -23,6 +24,8 @@
 		8436E0C512E84D1C00C6AC21 /* NSObject+Swizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Swizzle.m"; path = "Classes/NSObject+Swizzle.m"; sourceTree = "<group>"; };
 		8436E0E012E84DC400C6AC21 /* EchofonExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EchofonExtension.h; path = Classes/EchofonExtension.h; sourceTree = "<group>"; };
 		8436E0E112E84DC400C6AC21 /* EchofonExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EchofonExtension.m; path = Classes/EchofonExtension.m; sourceTree = "<group>"; };
+		8436E0F312E84E8400C6AC21 /* NSObject+EchofonExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+EchofonExtension.h"; path = "Classes/NSObject+EchofonExtension.h"; sourceTree = "<group>"; };
+		8436E0F412E84E8400C6AC21 /* NSObject+EchofonExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+EchofonExtension.m"; path = "Classes/NSObject+EchofonExtension.m"; sourceTree = "<group>"; };
 		8D5B49B6048680CD000E48DA /* EchofonExtension.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EchofonExtension.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
@@ -75,6 +78,8 @@
 			children = (
 				8436E0E012E84DC400C6AC21 /* EchofonExtension.h */,
 				8436E0E112E84DC400C6AC21 /* EchofonExtension.m */,
+				8436E0F312E84E8400C6AC21 /* NSObject+EchofonExtension.h */,
+				8436E0F412E84E8400C6AC21 /* NSObject+EchofonExtension.m */,
 				8436E0C412E84D1C00C6AC21 /* NSObject+Swizzle.h */,
 				8436E0C512E84D1C00C6AC21 /* NSObject+Swizzle.m */,
 			);
@@ -178,6 +183,7 @@
 			files = (
 				8436E0C612E84D1C00C6AC21 /* NSObject+Swizzle.m in Sources */,
 				8436E0E212E84DC400C6AC21 /* EchofonExtension.m in Sources */,
+				8436E0F512E84E8400C6AC21 /* NSObject+EchofonExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'EchofonExtension' target in the 'EchofonExtension' project.
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

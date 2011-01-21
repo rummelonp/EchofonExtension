@@ -1,0 +1,16 @@
+== Echofon Extension
+
+A SIMBL Plugin for Echofon which delete retweet with multiple comment.
+
+== Instalation
+
+Download binary of Echofon Extension from "Download" button.
+Install SIMBL if you didn't install it yet.
+Move "EchofonExtension.bundle" into "~/Library/Application Support/SIMBL/Plugins" folder.
+Restart Echofon.app.
+
+== License
+
+Copyright (c) 2011 Kazuya Takeshima
+
+Released under the WTFPL: http://sam.zoy.org/wtfpl

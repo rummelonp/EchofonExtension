@@ -13,6 +13,11 @@
 
 + (void)load
 {
+  Class yajlDocument = objc_getClass("YAJLDocument");
+
+  [yajlDocument swizzleMethod:@selector(parse:error:)
+                   withMethod:@selector(parseExtension:error:)];
+
   NSLog(@"EchofonExtension loaded.");
 }
 

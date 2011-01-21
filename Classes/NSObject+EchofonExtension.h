@@ -8,4 +8,6 @@
 
 @interface NSObject(EchofonExtension)
 
+- (unsigned long long)parseExtension:(id)arg1 error:(id*)arg2;
+
 @end

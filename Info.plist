@@ -26,6 +26,14 @@
       <key>BundleIdentifier</key>
       <string>com.echofon.Echofon</string>
     </dict>
+    <dict>
+      <key>BundleIdentifier</key>
+      <string>com.echofon.Echofon-AppStore</string>
+    </dict>
+    <dict>
+      <key>BundleIdentifier</key>
+      <string>com.echofon.Echofon-Premium-AppStore</string>
+    </dict>
   </array>
 </dict>
 </plist>

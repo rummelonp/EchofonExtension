@@ -44,6 +44,7 @@
     if ([rtPreficate evaluateWithObject:text]) {
       NSLog(@"Deleted tweet: %@", text);
       [altTweets removeObject:tweet];
+      [tweet release];
     }
   }
 
